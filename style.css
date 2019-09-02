@@ -1,6 +1,7 @@
 html
 ,body {
     height: 100vh;
+    width: 100%;
     background-color: #eee;
     color: #333;
     margin: 0;
@@ -9,7 +10,7 @@ html
     font-family: 'Times New Roman', Times, serif;
 }
 
-
+/*Navigation bar outline*/
 #ul {
     list-style-type: none;
     margin: 0;
@@ -23,11 +24,12 @@ html
     
   }
   
+  /*Makes navigation bar float left*/
   #li {
     float: left;
 
   }
-  
+  /*Displays blocks within navigation bar*/
   li a {
     display: block;
     color: #666;
@@ -36,12 +38,12 @@ html
     text-decoration: none;
 
   }
-  
+  /*Makes block change color on hover*/
   li a:hover:not(.active) {
     background-color: #ddd;
     border: 1px solid #e7e7e8;
   }
-
+  /*When href is active gives color*/
   .active {
 
     background-color: #ccce;
@@ -50,12 +52,11 @@ html
 
   h1 {
 
-    padding-top: 100px;
-     margin: 0;   
+    margin: 0;   
   }
 
 
-  
+  /*Container profile.html*/
   #container1 {
 
     width: 50%;
@@ -65,9 +66,11 @@ html
     color: white;
     text-align: center;
 
+
     
   }
-
+  
+  /*Container profile.html*/
   #container2 {
 
     width: 50%;
@@ -78,7 +81,8 @@ html
     float: right;
     text-align: center;
   }
-
+  
+  /*Container profile.html*/
   #container3 {
 
     width: 50%;
@@ -90,6 +94,7 @@ html
 
   }
 
+  /*Container profile.html*/
   #container4 {
 
     width: 50%;
@@ -102,6 +107,7 @@ html
     color: white;
   }
 
+  
   ul {
 
     margin: 0;
@@ -110,7 +116,8 @@ html
 
   }
 
-  #wrapper {
+  /*Wrapper for dashboard.html to sort everything inside*/
+  #wrapperdashboard {
 
     width: 75%;
     margin: auto auto;
@@ -119,6 +126,7 @@ html
 
   }
 
+  /*CSS for table*/
   table {
 
     margin: auto auto;
@@ -129,6 +137,7 @@ html
 
   }
 
+  /*CSS for table*/
   th, td {
     text-align: left;
     padding: 8px;
@@ -136,9 +145,28 @@ html
 
 }
 
+/*CSS for table*/
 tr:nth-child(even){background-color: #f2f2f2}
 
+/*CSS for table*/
 th {
     background-color: #ccce;
     color: #666;
+}
+
+/*Wrapper for index.html*/
+#wrapperindex {
+
+  max-width: 100%;
+  margin: 5px 10px;
+  
+}
+
+@media only screen and (max-width:600px){
+  .text{font-size: 1.5rem;}
+}
+
+@media only screen and (max-width:600px){
+  .table{overflow-x: scroll;
+  }
 }

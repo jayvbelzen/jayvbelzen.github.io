@@ -7,7 +7,7 @@ body {
 
     margin: 0;
     padding: 0;
-    background-color: #f7fafa;
+    background-color: #eee;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -31,7 +31,7 @@ body {
   
   li a {
     display: block;
-    color: #666;
+    color: #eee;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -55,7 +55,7 @@ body {
 
     width: 50%;
     height: 45%;
-    background-color: #171717;
+    background-color: #333;
     float: left;
     color: white;
     text-align: center;
@@ -68,7 +68,7 @@ body {
     width: 50%;
     height: 45%;
     margin-left: 50%;
-    background-color: #b4b48f;
+    background-color: #eee;
     position: absolute;
     float: right;
     text-align: center;
@@ -79,7 +79,7 @@ body {
     width: 50%;
     height: 45%;
     top: 55%;
-    background-color: #b4b48f;
+    background-color: #eee;
     position: absolute;
     text-align: center;
 
@@ -91,7 +91,7 @@ body {
     height: 45%;
     margin-left: 50%;
     top: 55%;
-    background-color: #171717;
+    background-color: #333;
     position: absolute;
     text-align: center;
     color: white;
