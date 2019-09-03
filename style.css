@@ -1,41 +1,47 @@
 html
 ,body {
-    height: 100vh;
-    width: 100%;
-    background-color: #eee;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    background-color: #f7fafa;
-    font-family: 'Times New Roman', Times, serif;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.nav {
+
+  height: 10vh;
 }
 
 /*Navigation bar outline*/
-#ul {
+.ul {
     list-style-type: none;
+    overflow: hidden;
+    font-size: 20px;
+    height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+
     border: 1px solid #e7e7f7;
     background-color: #f3f3f3;
-    height: 10%;
-    font-size: 20px;
-    line-height: 250%;
+    align-items: center;
     
   }
   
   /*Makes navigation bar float left*/
-  #li {
+  .li {
     float: left;
+    height: 100%;
+    align-items: center;
+    
 
   }
   /*Displays blocks within navigation bar*/
   li a {
-    display: block;
+    display: flex;
     color: #666;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 0 8px;
     text-decoration: none;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
 
   }
   /*Makes block change color on hover*/
@@ -56,56 +62,47 @@ html
   }
 
 
-  /*Container profile.html*/
-  #container1 {
 
-    width: 50%;
-    height: 45%;
-    background-color: #333;
-    float: left;
-    color: white;
-    text-align: center;
-
-
+.container {
     
-  }
-  
-  /*Container profile.html*/
-  #container2 {
+    background-color: #eee;
+    height: 90vh;
+}
 
+.topcontainer {
+
+    height: 50%;
+    display: flex;
+}
+
+.bottomcontainer {
+
+    height: 50%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box {
+
+    display: flex;
     width: 50%;
-    height: 45%;
-    margin-left: 50%;
-    background-color: #ddd;
-    position: absolute;
-    float: right;
-    text-align: center;
-  }
-  
-  /*Container profile.html*/
-  #container3 {
-
-    width: 50%;
-    height: 45%;
-    top: 55%;
-    background-color: #ddd;
-    position: absolute;
-    text-align: center;
-
-  }
-
-  /*Container profile.html*/
-  #container4 {
-
-    width: 50%;
-    height: 45%;
-    margin-left: 50%;
-    top: 55%;
-    background-color: #333;
-    position: absolute;
-    text-align: center;
+    height: 100%;
     color: white;
-  }
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.picturebox {
+  
+  width: 50%;
+  height: 100%;
+  color: white;
+  text-align: center;
+
+}
+
 
   
   ul {
