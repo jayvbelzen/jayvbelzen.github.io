@@ -5,7 +5,7 @@ html
   
   
   max-width: 100vw;
-  max-height: 100vw;
+
   
   font-family: 'Abel',Helvetica,Arial,Lucida,sans-serif;
 }
@@ -19,16 +19,15 @@ nav.top-menu-nav {
 /*Navigation bar outline*/
 .ul {
     list-style-type: none;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-size: 20px;
     height: 100%;
     max-width: 100%;
     margin: 0;
     padding: 0;
-
-    border: 1px solid #eee;
     background-color: #f3f3f3;
     align-items: center;
+    overflow: hidden;
     
   }
   
@@ -66,19 +65,13 @@ nav.top-menu-nav {
 
     color: black;
   }
+
   
-
-  h1 {
-
-    margin: 0;   
-  }
-
-
 
 .container {
     
     background-color: #fff;
-    height: 90vh;
+    height: 80vh;
 }
 
 .topcontainer {
@@ -121,12 +114,12 @@ nav.top-menu-nav {
 
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 
   }
 
   /*Wrapper for dashboard.html to sort everything inside*/
-  #wrapperdashboard {
+  .wrapperdashboard {
 
     width: 75%;
     margin: auto auto;
@@ -171,9 +164,34 @@ th {
   
 }
 
+.wrapper {
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  
+
+}
+
+.infobox {
+
+    width: 25%;
+    height: 25%;
+    background-color: #111;
+
+}
+
+.footer {
+
+  height: 10vh;
+  background-color: #f3f3f3;
+}
+
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
   table{overflow-x: scroll;}
-  body {
+  li {
+    float: none;
     width: 100%;
   }
   
