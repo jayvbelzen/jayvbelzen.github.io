@@ -1,10 +1,14 @@
 html
 ,body {
   margin: 0px;
+  padding: 0px;
   overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  font-family: 'Abel',Helvetica,Arial,Lucida,sans-serif;
 }
 
-.nav {
+nav.top-menu-nav {
 
   height: 10vh;
 }
@@ -15,10 +19,11 @@ html
     overflow: hidden;
     font-size: 20px;
     height: 100%;
+    max-width: 100%;
     margin: 0;
     padding: 0;
 
-    border: 1px solid #e7e7f7;
+    border: 1px solid #eee;
     background-color: #f3f3f3;
     align-items: center;
     
@@ -29,6 +34,10 @@ html
     float: left;
     height: 100%;
     align-items: center;
+    min-width: 100px;
+    
+    
+
     
 
   }
@@ -46,13 +55,13 @@ html
   }
   /*Makes block change color on hover*/
   li a:hover:not(.active) {
-    background-color: #ddd;
+    color: #ccce;
     border: 1px solid #e7e7e8;
   }
   /*When href is active gives color*/
   .active {
 
-    background-color: #ccce;
+    color: black;
   }
   
 
@@ -65,7 +74,7 @@ html
 
 .container {
     
-    background-color: #eee;
+    background-color: #fff;
     height: 90vh;
 }
 
@@ -160,10 +169,8 @@ th {
 }
 
 @media only screen and (max-width:600px){
-  .text{font-size: 1.5rem;}
+  table{overflow-x: scroll;}
+  
+
 }
 
-@media only screen and (max-width:600px){
-  .table{overflow-x: scroll;
-  }
-}
