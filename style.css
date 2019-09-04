@@ -2,7 +2,7 @@ html
 ,body {
   margin: 0px;
   padding: 0px;
-  max-width: 100vw;
+  max-width: 100%;
   font-family: 'Abel',Helvetica,Arial,Lucida,sans-serif;
 }
 
@@ -28,6 +28,7 @@ nav.top-menu-nav {
     
     background-color: #fff;
     height: 80vh;
+    max-width: 100%;
 }
 
 .topcontainer {
@@ -163,3 +164,12 @@ th {
     right: 45px;
     font-size: 60px;
   }
+
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
