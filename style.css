@@ -165,11 +165,11 @@ th {
     font-size: 60px;
   }
 
-  @media screen and (max-height: 450px) {
+  @media screen and (max-height: 600px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
-    font-size: 40px;
+    font-size: 20px;
     top: 15px;
     right: 35px;
     }
