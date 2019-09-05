@@ -165,12 +165,22 @@ th {
     font-size: 60px;
   }
 
+.picture {
+
+    height: 100%;
+    border: 1px solid black
+}
+
+
   @media screen and (max-height: 600px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
-    font-size: 20px;
+    font-size: 10px;
     top: 15px;
     right: 35px;
+    }
+    body {
+      font-size: 10px;
     }
   }
