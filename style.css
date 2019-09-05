@@ -172,7 +172,7 @@ th {
 }
 
 
-  @media screen and (max-height: 600px) {
+  @media screen and (max-height: 800px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
