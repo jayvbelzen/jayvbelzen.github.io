@@ -172,7 +172,7 @@ th {
 }
 
 
-  @media screen and (max-height: 800px) {
+  @media screen and (max-height: 600px) {
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 20px}
     .overlay .closebtn {
@@ -183,4 +183,22 @@ th {
     body {
       font-size: 10px;
     }
+
+    
+.topcontainer {
+
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomcontainer {
+
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
   }
