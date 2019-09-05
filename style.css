@@ -16,6 +16,12 @@ html
   position: sticky;
 
 }
+
+.footer {
+  padding-left: 20px;
+  padding-top: 5px;
+  
+}
  
 .container {
     
@@ -258,4 +264,49 @@ border: 0.5px solid grey;
 .studiewijzer li a:hover {
   background-color: #555;
   color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 200px;
+  border-radius: 5px;
+  text-align: center;
+  height: 60%;
+  float: right ;
+  margin: 20px;
+  
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.cardcontainer {
+  padding: 2px 16px;
+}
+
+.home-text-container  {
+  
+  width: 100vw;
+  height: 80vh;  
+  display: flex;
+  
+
+}
+
+.home-text {
+
+  height: 70vh;
+  width: 80%;
+  margin: 20px 20px ;
+  background-color: #ffffff;
+  margin-left: 20%;
+
+
 }
