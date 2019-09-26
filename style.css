@@ -3,8 +3,8 @@ html
   margin: 0px;
   padding: 0px;
   max-width: 100%;
-  overflow: hidden;
-  background-color: red;
+  /* overflow: hidden; */
+  background-color: #eee;
   font-family: 'Abel',Helvetica,Arial,Lucida,sans-serif;
 }
 
@@ -325,6 +325,27 @@ img {
   margin: 10px;
 
 }
+
+.text-box {
+
+  max-width: 80vw;
+
+}
+
+
+
+.container-motivatie {
+
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  max-width: 100%;
+
+  padding-left: 10vw;
+  overflow: auto;
+}
+
+
 
 
 
