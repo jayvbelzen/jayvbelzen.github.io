@@ -340,6 +340,7 @@ img {
   flex-direction: column;
   background-color: #fff;
   max-width: 100%;
+  min-height: 90vh;
 
   padding-left: 10vw;
   overflow: auto;
